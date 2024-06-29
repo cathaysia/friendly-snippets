@@ -46,6 +46,10 @@
                 "path": "./snippets/csharp/csharpdoc.json"
             },
             {
+                "language": "editorconfig",
+                "path": "./snippets/editorconfig.json"
+            },
+            {
                 "language": ["gitcommit", "NeogitCommitMessage"],
                 "path": "./snippets/gitcommit.json"
             },
@@ -80,6 +84,10 @@
             {
                 "language": "nix",
                 "path": "./snippets/nix.json"
+            },
+            {
+                "language": "kivy",
+                "path": "./snippets/kivy.json"
             },
             {
                 "language": "liquid",
@@ -225,7 +233,8 @@
                     "eruby",
                     "javascriptreact",
                     "htmldjango",
-                    "astro"
+                    "astro",
+		    "blade"
                 ],
                 "path": "./snippets/html.json"
             },
@@ -278,6 +287,10 @@
                 "path": "./snippets/javascript/react-es7.json"
             },
             {
+                "language": "terraform",
+                "path": "./snippets/terraform.json"
+            },
+            {
                 "language": "svelte",
                 "path": "./snippets/svelte.json"
             },
@@ -287,19 +300,23 @@
             },
             {
                 "language": "vue",
-                "path": "./snippets/frameworks/vue/nuxt_html.json"
+                "path": "./snippets/frameworks/vue/nuxt-html.json"
             },
             {
                 "language": "vue",
-                "path": "./snippets/frameworks/vue/nuxt_js_ts.json"
+                "path": "./snippets/frameworks/vue/nuxt-script.json"
             },
             {
                 "language": "vue",
-                "path": "./snippets/frameworks/vue/javascript.json"
+                "path": "./snippets/frameworks/vue/script.json"
             },
             {
                 "language": "vue",
                 "path": "./snippets/frameworks/vue/vue.json"
+            },
+            {
+                "language": "vue",
+                "path": "./snippets/frameworks/vue/style.json"
             },
             {
                 "language": "angular",
@@ -315,7 +332,7 @@
             },
             {
                 "language": "python",
-                "path": "./snippets/python/base.json"
+                "path": "./snippets/python/python.json"
             },
             {
                 "language": "python",
@@ -323,15 +340,11 @@
             },
             {
                 "language": "python",
-                "path": "./snippets/python/debug.json"
-            },
-            {
-                "language": "python",
-                "path": "./snippets/python/python.json"
-            },
-            {
-                "language": "python",
                 "path": "./snippets/python/unittest.json"
+            },
+            {
+                "language": "python",
+                "path": "./snippets/python/debug.json"
             },
             {
                 "language": "pydoc",
@@ -418,9 +431,25 @@
                 "path": "./snippets/latex/bibtex.json"
             },
             {
-                "language": "twig",
+        	"language": "twig",
                 "path": "./snippets/frameworks/twig.json"
             },
+	    {
+	    	"language": "blade",
+	    	"path": "./snippets/frameworks/blade/blade.json"
+	    },
+	    {
+		"language": "blade",
+		"path": "./snippets/frameworks/blade/helpers.json"
+	    },
+	    {
+		"language": "blade",
+		"path": "./snippets/frameworks/blade/livewire.json"
+	    },
+	    {
+		"language": "blade",
+		"path": "./snippets/frameworks/blade/snippets.json"
+	    },
             {
                 "language": ["r", "rmd"],
                 "path": "./snippets/r.json"
@@ -478,6 +507,10 @@
                 "path": "./snippets/tcl.json"
             },
             {
+                "language": "perl",
+                "path": "./snippets/perl.json"
+            },
+            {
                 "language": "verilog",
                 "path": "./snippets/verilog.json"
             },
@@ -523,7 +556,32 @@
             {
                 "language": "dune",
                 "path": "./snippets/ocaml/dune.json"
+            },
+            {
+                "language": "purescript",
+                "path": "./snippets/purescript.json"
+            },
+            {
+                "language": "gleam",
+                "path": "./snippets/gleam.json"
+            },
+            {
+                "language": "asciidoc",
+                "path": "./snippets/asciidoc.json"
+            },
+            {
+                "language": "beancount",
+                "path": "./snippets/beancount.json"
+            },
+            {
+                 "language": "rst",
+                 "path": "./snippets/rst.json"
+            },
+            {
+                 "language": "loremipsum",
+                 "path": "./snippets/loremipsum.json"
             }
         ]
     }
 }
+
